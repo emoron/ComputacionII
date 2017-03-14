@@ -18,20 +18,12 @@ De igual manera que ipython en la consola puedes probar algunos comandos relacio
 - Agrega , and hit the 'Submit Answer' button.
 
 *** =hint
-Just add a line of R code that calculates the sum of 6 and 12, just like the example in the sample code!
+Agrega un ciclo `for` para iterar sobre los elementos de la lista
 
 *** =pre_exercise_code
 
 ```{python}
-# Aqui aparece un breve codigo.
-# You can use it to load packages, initialize datasets and draw a plot in the viewer
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
+# no pec
 ```
 
 *** =sample_code
@@ -39,25 +31,27 @@ movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introdu
 # Edita la siguiente funcion
 def suma(n):
     return n
+# Agrega el código necesario para que reciba una lista de enteros
+salida = suma([100,200,300])
 
-# Comprueba tu resultado con la siguiente lista
-
-n = [100,200,400]
 ```
 *** =solution
-```{r}
+```{python}
 # Edita la siguiente funcion
 def suma(lista):
     suma = 0
     for i in lista:
         suma = suma + i
     return suma
+# Agrega el código necesario para que reciba una lista de enteros
+salida = suma([100,200,300])
 ```
 
 *** =sct
-```{r}
-test_output_contains("18", incorrect_msg = "Make sure to add `6 + 12` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
-success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
+```{python}
+test_object('salida')
+test_output_contains('600')
+success_msg('Great job!')
 ```
 
 --- type:NormalExercise xp:100 skills:1 key:720745eda5
