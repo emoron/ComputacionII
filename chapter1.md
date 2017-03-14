@@ -2,6 +2,8 @@
 title_meta  : Chapter 1
 title       : Introducción
 description : "En este ejercicio conocerás los conceptos básicos de programación en python. Además conocerás la herramienta con la que impartiremos en linea los materiales del curso."
+attachments:
+  slides_link: http://link.to.slides/
 
 --- type:NormalExercise xp:100 skills:1 key:15d729634a
 ## Como funciona
@@ -49,66 +51,4 @@ print(x)
 test_object('x')
 test_output_contains('5')
 success_msg('Great job!')
-```
---- type:VideoExercise lang:python xp:50 skills:2 key:d1959d3823
-## <<<New Exercise>>>
-
-
-*** =video_link
-//player.vimeo.com/video/154783078
-
-*** =video_hls
-//videos.datacamp.com/transcoded/000_placeholders/v1/hls-temp.master.m3u8
-
-
-
---- type:MultipleChoiceExercise lang:python xp:50 skills:2 key:5da2de138d
-## Instalacion de Python
-
-
-En el editor de la derecha deberás ver el código a resolver. Cuando presionas el botón "Submit" cada linea del código se evalua por el compilador de python, si obtienes un mensaje de error no se considera completa la actividad. La salida del código se muestra en la consola de la derecha.
-
-Para los comentarios `#`se utiliza al inicio de las lineas de python, te recomiendo que escribas el menor código posible para que tu navegador no se vea ralentizado.
-
-De igual manera que ipython en la consola puedes probar algunos comandos relacionados con la actividad.
-
-
-*** =instructions
-
-- Descarga Python de la página 
-*** =hint
-
-*** =pre_exercise_code
-
-
-*** =sct
-
-
-
---- type:NormalExercise lang:python xp:100 skills:2 key:e8c1cd87d3
-## <<<New Exercise>>>
-
-
-*** =instructions
-
-*** =hint
-
-*** =pre_exercise_code
-```{python}
-
-```
-
-*** =sample_code
-```{python}
-
-```
-
-*** =solution
-```{python}
-
-```
-
-*** =sct
-```{python}
-
 ```
