@@ -38,8 +38,7 @@ plt.show()
 
 *** =sample_code
 ```{python}
-# 
-3 + 4
+# 3 + 4
 
 # Calculate 6 + 12
 
