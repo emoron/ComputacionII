@@ -1,28 +1,32 @@
----
-title       : Insert the chapter title here
-description : Insert the chapter description here
-attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+--- 
+title_meta  : Chapter 1
+title       : Introducción
+description : "En este ejercicio conocerás los conceptos básicos de programación en python. Además conocerás la herramienta con la que impartiremos en linea los materiales del curso."
 
---- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:b449e448d4
-## A really bad movie
+--- type:NormalExercise xp:100 skills:1 key:15d729634a
+## Como funciona
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
+En el editor de la derecha deberás ver el código a resolver. Cuando presionas el botón "Submit" cada linea del código se evalua por el compilador de python, si obtienes un mensaje de error no se considera completa la actividad. La salida del código se muestra en la consola de la derecha.
+
+Para los comentarios `#`se utiliza al inicio de las lineas de python, te recomiendo que escribas el menor código posible para que tu navegador no se vea ralentizado.
+
+De igual manera que ipython en la consola puedes probar algunos comandos relacionados con la actividad.
+
 
 *** =instructions
-- Long movies, clearly
-- Short movies, clearly
-- Long movies, but the correlation seems weak
-- Short movies, but the correlation seems weak
+- En el editor de la derecha aparece la función calcular que reciba como argumento un entero, reescribe la función para que reciba una lista de valores.
+- Agrega , and hit the 'Submit Answer' button.
 
 *** =hint
-Have a look at the plot. Do you see a trend in the dots?
+Just add a line of R code that calculates the sum of 6 and 12, just like the example in the sample code!
 
 *** =pre_exercise_code
+
 ```{python}
-# The pre exercise code runs code to initialize the user's workspace.
+# Aqui aparece un breve codigo.
 # You can use it to load packages, initialize datasets and draw a plot in the viewer
 
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -32,90 +36,449 @@ plt.scatter(movies.runtime, movies.rating)
 plt.show()
 ```
 
-*** =sct
-```{python}
-# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
-
-msg_bad = "That is not correct!"
-msg_success = "Exactly! The correlation is very weak though."
-test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
-```
-
---- type:NormalExercise lang:python xp:100 skills:1 key:56da5884dd
-## Plot the movies yourself
-
-Do you remember the plot of the last exercise? Let's make an even cooler plot!
-
-A dataset of movies, `movies`, is available in the workspace.
-
-*** =instructions
-- The first function, `np.unique()`, uses the `unique()` function of the `numpy` package to get integer values for the movie genres. You don't have to change this code, just have a look!
-- Import `pyplot` in the `matplotlib` package. Set an alias for this import: `plt`.
-- Use `plt.scatter()` to plot `movies.runtime` onto the x-axis, `movies.rating` onto the y-axis and use `ints` for the color of the dots. You should use the first and second positional argument, and the `c` keyword.
-- Show the plot using `plt.show()`.
-
-*** =hint
-- You don't have to program anything for the first instruction, just take a look at the first line of code.
-- Use `import ___ as ___` to import `matplotlib.pyplot` as `plt`.
-- Use `plt.scatter(___, ___, c = ___)` for the third instruction.
-- You'll always have to type in `plt.show()` to show the plot you created.
-
-*** =pre_exercise_code
-```{python}
-import pandas as pd
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
-import numpy as np
-```
-
 *** =sample_code
 ```{python}
-# Get integer values for genres
-_, ints = np.unique(movies.genre, return_inverse = True)
+# 
+3 + 4
 
-# Import matplotlib.pyplot
-
-
-# Make a scatter plot: runtime on  x-axis, rating on y-axis and set c to ints
-
-
-# Show the plot
+# Calculate 6 + 12
 
 ```
 
 *** =solution
-```{python}
-# Get integer values for genres
-_, ints = np.unique(movies.genre, return_inverse = True)
+```{r}
+# Calculate 3 + 4
+3 + 4
 
-# Import matplotlib.pyplot
-import matplotlib.pyplot as plt
-
-# Make a scatter plot: runtime on  x-axis, rating on y-axis and set c to ints
-plt.scatter(movies.runtime, movies.rating, c=ints)
-
-# Show the plot
-plt.show()
+# Calculate 6 + 12
+6 + 12
 ```
 
 *** =sct
-```{python}
-# SCT written with pythonwhat: https://github.com/datacamp/pythonwhat/wiki
-
-test_function("numpy.unique",
-              not_called_msg = "Don't remove the call of `np.unique` to define `ints`.",
-              incorrect_msg = "Don't change the call of `np.unique` to define `ints`.")
-
-test_object("ints",
-            undefined_msg = "Don't remove the definition of the predefined `ints` object.",
-            incorrect_msg = "Don't change the definition of the predefined `ints` object.")
-
-test_import("matplotlib.pyplot", same_as = True)
-
-test_function("matplotlib.pyplot.scatter",
-              incorrect_msg = "You didn't use `plt.scatter()` correctly, have another look at the instructions.")
-
-test_function("matplotlib.pyplot.show")
-
-success_msg("Great work!")
+```{r}
+test_output_contains("18", incorrect_msg = "Make sure to add `6 + 12` on a new line. Do not start the line with a `#`, otherwise your R code is not executed!")
+success_msg("Awesome! See how the console shows the result of the R code you submitted? Now that you're familiar with the interface, let's get down to R business!")
 ```
+
+--- type:NormalExercise xp:100 skills:1 key:720745eda5
+## Arithmetic with R
+
+In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
+
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+- Exponentiation: `^`
+- Modulo: `%%`
+
+The last two might need some explaining:
+
+- The `^` operator raises the number to its left to the power of the number to its right: for example `3^2` is 9.
+- The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or `5 %% 3` is 2.
+
+With this knowledge, follow the instructions below to complete the exercise.
+
+*** =instructions
+- Type `2^5` in the editor to calculate 2 to the power 5.
+- Type `28 %% 6` to calculate 28 modulo 6.
+- Click 'Submit Answer' and have a look at the R output in the console.
+- Note how the `#` symbol is used to add comments on the R code.
+
+*** =hint
+Another example of the modulo operator: `9 %% 2` equals `1`.
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sample_code
+```{r}
+# An addition
+5 + 5 
+
+# A subtraction
+5 - 5 
+
+# A multiplication
+3 * 5
+
+ # A division
+(5 + 5) / 2 
+
+# Exponentiation
+
+
+# Modulo
+
+```
+
+*** =solution
+```{r}
+# An addition
+5 + 5
+
+# A subtraction
+5 - 5 
+
+# A multiplication
+3 * 5
+
+ # A division
+(5 + 5) / 2 
+
+# Exponentiation
+2 ^ 5
+
+# Modulo
+28 %% 6
+```
+
+*** =sct
+```{r}
+msg = "Do not remove the other arithmetic examples!"
+test_output_contains("2^5", incorrect_msg = "The exponentiation example is not correct. Write `2 ^ 5` on a new line.")
+test_output_contains("28 %% 6", incorrect_msg = "There seems to be an issue with the modulo example. Write `28 %% 6` on a new line.")
+success_msg("Great! Head over to the next exercise.")
+```
+
+
+--- type:NormalExercise xp:100 skills:1 key:5f200ffd43
+## Variable assignment 
+
+A basic concept in (statistical) programming is called a **variable**. 
+
+A variable allows you to store a value (e.g. 4) or an object (e.g. a function description) in R. You can then later use this variable's name to easily access the value or the object that is stored within this variable. 
+
+You can assign a value 4 to a variable `my_var` with the command
+
+```
+my_var <- 4
+```
+
+*** =instructions
+Over to you: complete the code in the editor such that it assigns the value 42 to the variable `x` in the editor. Click 'Submit Answer'. Notice that when you ask R to print `x`, the value 42 appears.
+
+*** =hint
+Look at how the value 4 was assigned to `my_variable` in the exercise's assignment. Do the exact same thing in the editor, but now assign 42 to the variable `x`.
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sample_code
+```{r}
+# Assign the value 42 to x
+x <- 
+
+# Print out the value of the variable x
+x
+```
+
+*** =solution
+```{r}
+# Assign the value 42 to x
+x <- 42
+
+# Print out the value of the variable x
+x
+```
+
+*** =sct
+```{r}
+test_object("x", undefined_msg = "Make sure to define a variable `x`.",
+            incorrect_msg = "Make sure that you assign the correct value to `x`.") 
+success_msg("Good job! Have you noticed that R does not print the value of a variable to the console when you did the assignment? `x <- 42` did not generate any output, because R assumes that you will be needing this variable in the future. Otherwise you wouldn't have stored the value in a variable in the first place, right? Proceed to the next exercise!")
+```
+
+
+--- type:NormalExercise xp:100 skills:1 key:c5944b90eb
+## Variable assignment (2)
+
+Suppose you have a fruit basket with five apples. As a data analyst in training, you want to store the number of apples in a variable with the name `my_apples`. 
+
+*** =instructions
+- Type the following code in the editor: `my_apples <- 5`. This will assign the value 5 to `my_apples`.
+- Type: `my_apples` below the second comment. This will print out the value of `my_apples`.
+- Click 'Submit Answer', and look at the console: you see that the number 5 is printed. So R now links the variable `my_apples` to the value 5.
+
+*** =hint
+Remember that if you want to assign a number or an object to a variable in R, you can make use of the assignment operator `<-`. Alternatively, you can use `=`, but `<-` is widely preferred in the R community.
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sample_code
+```{r}
+# Assign the value 5 to the variable my_apples
+
+
+# Print out the value of the variable my_apples
+
+```
+
+*** =solution
+```{r}
+# Assign the value 5 to the variable my_apples
+my_apples <- 5
+
+# Print out the value of the variable my_apples
+my_apples
+```
+
+*** =sct
+```{r}
+test_object("my_apples", 
+            undefined_msg = "Please make sure to define a variable `my_apples`.",
+            incorrect_msg = "Make sure that you assign the correct value to `my_apples`.")
+test_output_contains("my_apples", incorrect_msg = "Have you explicitly told R to print out the `my_apples` variable to the console?")
+success_msg("Great! Continue to the next exercise!")
+```
+
+
+--- type:NormalExercise xp:100 skills:1 key:1c1bd25045
+## Variable assignment (3)
+
+Every tasty fruit basket needs oranges, so you decide to add six oranges. As a data analyst, your reflex is to immediately create the variable `my_oranges` and assign the value 6 to it. Next, you want to calculate how many pieces of fruit you have in total. Since you have given meaningful names to these values, you can now code this in a clear way: 
+
+```
+my_apples + my_oranges
+```
+
+*** =instructions
+- Assign to `my_oranges` the value 6.
+- Add the variables `my_apples` and `my_oranges` and have R simply print the result.
+- Assign the result of adding `my_apples` and `my_oranges` to a new variable `my_fruit`.
+
+*** =hint
+`my_fruit` is just the sum of `my_apples` and `my_oranges`. You can use the `+` operator to sum the two and `<-` to assign that value to the variable `my_fruit`.
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sample_code
+```{r}
+# Assign a value to the variables my_apples and my_oranges
+my_apples <- 5
+
+
+# Add these two variables together
+
+
+# Create the variable my_fruit
+
+```
+
+*** =solution
+```{r}
+# Assign a value to the variables my_apples and my_oranges
+my_apples  <- 5
+my_oranges <- 6
+
+# Add these two variables together
+my_apples + my_oranges
+
+# Create the variable my_fruit
+my_fruit <- my_apples + my_oranges
+```
+
+*** =sct
+```{r}
+test_object("my_apples", incorrect_msg = "Keep the line that assigns 5 to `my_apples`.")
+test_object("my_oranges", incorrect_msg = "Keep the line that assigns 6 to `my_oranges`.")
+test_output_contains("my_apples + my_oranges",
+                     incorrect_msg = "Make sure to print out the result of adding `my_apples` and `my_oranges`. The code example in the description already gives away the answer to this instruction!")
+msg <- "Have you used `my_fruit <- my_apples + my_oranges` to create the `my_fruit` variable?"
+test_object("my_fruit", undefined_msg = msg, incorrect_msg = msg)
+success_msg("Nice one! The great advantage of doing calculations with variables is reusability. If you just change `my_apples` to equal 12 instead of 5 and rerun the script, `my_fruit` will automatically update as well. Continue to the next exercise.")
+```
+
+
+--- type:NormalExercise xp:100 skills:1 key:915fcc7c99
+## Apples and oranges
+
+Common knowledge tells you not to add apples and oranges. But hey, that is what you just did, no :-)? The `my_apples` and `my_oranges` variables both contained a number in the previous exercise. The `+` operator works with numeric variables in R. If you really tried to add "apples" and "oranges", and assigned a text value to the variable `my_oranges` (see the editor), you would be trying to assign the addition of a numeric and a character variable to the variable `my_fruit`. This is not possible.
+
+*** =instructions
+- Click 'Submit Answer' and read the error message. Make sure to understand why this did not work.
+- Adjust the code so that R knows you have 6 oranges and thus a fruit basket with 11 pieces of fruit.
+
+*** =hint
+You have to assign the numeric value `6` to the `my_oranges` variable instead of the character value `"six"`. Note how the quotation marks are used to indicate that `"six"` is a character.
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sample_code
+```{r}
+# Assign a value to the variable my_apples
+my_apples <- 5 
+
+# Fix the assignment of my_oranges
+my_oranges <- "six" 
+
+# Create the variable my_fruit and print it out
+my_fruit <- my_apples + my_oranges 
+my_fruit
+```
+
+*** =solution
+```{r}
+# Assign a value to the variable my_apples
+my_apples <- 5  
+
+# Fix the assignment of my_oranges
+my_oranges <- 6
+
+# Create the variable my_fruit and print it out
+my_fruit <- my_apples + my_oranges 
+my_fruit
+```
+
+*** =sct
+```{r}
+test_error(incorrect_msg = "You can do this by setting the `my_oranges` variable to a numeric value, not a string!")
+test_object("my_apples", incorrect_msg = "Make sure that `my_apples` still contains `5`.")
+test_object("my_oranges", incorrect_msg = "Make sure that `my_oranges` is equal to `6`.")
+test_object("my_fruit", incorrect_msg = "The value of `my_fruit` is not correct. It should be 11, the sum of `my_apples` and `my_oranges`.")
+test_output_contains("my_fruit", incorrect_msg = "Don't remove the line that prints out `my_fruit`.")
+success_msg("Awesome, keep up the good work! Continue to the next exercise.")
+```
+
+
+--- type:NormalExercise xp:100 skills:1 key:0f23107394
+## Basic data types in R
+
+R works with numerous data types. Some of the most basic types to get started are:
+
+- Decimals values like `4.5` are called **numerics**.
+- Natural numbers like `4` are called **integers**. Integers are also numerics.
+- Boolean values (`TRUE` or `FALSE`) are called **logical**.
+- Text (or string) values are called **characters**.
+
+Note how the quotation marks on the right indicate that "some text" is a character.
+
+*** =instructions
+Change the value of the:
+
+- `my_numeric` variable to `42`.
+- `my_character` variable to `"universe"`. Note that the quotation marks indicate that `"universe"` is a character.
+- `my_logical` variable to `FALSE`.
+
+Note that R is case sensitive!
+
+*** =hint 
+Replace the values in the editor with the values that are provided in the exercise. For example: 
+`my_numeric <- 42` assigns the value 42 to the variable `my_numeric`. 
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sample_code
+```{r}
+# Change my_numeric to be 42
+my_numeric <- 42.5
+
+# Change my_character to be "universe"
+my_character <- "some text"
+
+# Change my_logical to be FALSE
+my_logical <- TRUE
+```
+
+*** =solution
+```{r}
+# Change my_numeric to be 42
+my_numeric <- 42
+
+# Change my_character to be "universe"
+my_character <- "universe"
+
+# Change my_logical to be FALSE
+my_logical <- FALSE
+```
+
+*** =sct
+```{r}
+test_object("my_numeric", incorrect_msg = "Have you correctly changed the declaration of `my_numeric` so it contains the value 42?")
+test_object("my_character", incorrect_msg = "Have you correctly changed `my_character` to `\"universe\"`? Don't forget the quotes!")
+test_object("my_logical", incorrect_msg = "Have you correctly changed `my_logical` to `FALSE`? All letters of `FALSE` should be capitalized!")
+success_msg("Great work! Continue to the next exercise.")
+```
+
+
+--- type:NormalExercise xp:100 skills:1 key:99b549229d
+## What's that data type?
+
+Do you remember that when you added `5 + "six"`, you got an error due to a mismatch in data types? You can avoid such embarrassing situations by checking the data type of a variable beforehand. You can do this with the `class()` function, as the code on the right shows.
+
+*** =instructions
+Complete the code in the editor and also print out the classes of `my_character` and `my_logical`. 
+
+*** =hint
+The code that prints the data type of `my_numeric` is already included; do a similar things for `my_character` and `my_logical`. 
+
+*** =pre_exercise_code
+```{r}
+# no pec
+```
+
+*** =sample_code
+```{r}
+# Declare variables of different types
+my_numeric <- 42
+my_character <- "universe"
+my_logical <- FALSE 
+
+# Check class of my_numeric
+class(my_numeric)
+
+# Check class of my_character
+
+
+# Check class of my_logical
+
+```
+
+*** =solution
+```{r}
+# Declare variables of different types:
+my_numeric <- 42
+my_character <- "universe"
+my_logical <- FALSE
+
+# Check class of my_numeric
+class(my_numeric)
+
+# Check class of my_character
+class(my_character)
+
+# Check class of my_logical
+class(my_logical)
+```
+
+*** =sct
+```{r}
+msg <- "Do not change the declaration of the variables!"
+lapply(c("my_numeric", "my_character", "my_logical"), test_object, undefined_msg = msg, incorrect_msg = msg)
+patt <- "Have you included `class(%1$s)` to print out the data type of `%1$s`?"
+test_output_contains("class(my_numeric)",
+                     incorrect_msg = "Do not remove the code that prints out the type of `my_numeric`.")
+test_output_contains("class(my_character)",
+                     incorrect_msg = sprintf(patt, "my_character"))
+test_output_contains("class(my_logical)",
+                     incorrect_msg = sprintf(patt, "my_logical"))
+success_msg("Congratulations! This was the last exercise for this chapter. Head over to the next chapter to get immersed in the world of vectors!")
+```
+
+
