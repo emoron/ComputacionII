@@ -38,19 +38,19 @@ plt.show()
 
 *** =sample_code
 ```{python}
-# 3 + 4
-
-# Calculate 6 + 12
-
+# Edita la siguiente funcion
+def suma(n):
+    return n
 ```
 
 *** =solution
 ```{r}
-# Calculate 3 + 4
-3 + 4
-
-# Calculate 6 + 12
-6 + 12
+# Edita la siguiente funcion
+def suma(lista):
+    suma = 0
+    for i in lista:
+        suma = suma + i
+    return suma
 ```
 
 *** =sct
