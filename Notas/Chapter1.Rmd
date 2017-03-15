@@ -1,0 +1,90 @@
+---
+output:
+  html_document: default
+  
+---
+# Estructuras de Datos en Python
+
+- La lista nos permite combinar un grupo de elementos de diferente tipo.
+![Lista](img/lista.jpg)
+
+- Se tienen dos tipos básicos de lista, en función de como se llenan. 
+- Al llenar por el inicio se conoce como *pila*.
+- Al llenar por el final se conoce como *Queue*
+
+# Listas
+
+
+Las listas son el tipo de dato básido de python realizaremos algunas pruebas con ellas.
+
+```{python}
+Lista1 = [23,34,566,123,64]
+Lista2 = [56,32,656,33,23]
+
+# Al sumar dos listas, se concatenan
+print(Lista1 + Lista2)
+
+```
+
+## Listas de comprensión
+
+Si queremos generar una lista de números, podemos  utilizar la función *range*, la cual genera una lista de enteros consecutivos.
+
+```{python}
+print range(10)
+
+## Podemos indicar el rango de inicio y final
+
+print range(1,10)
+
+# Podemos indicar los incrementos
+print range(1,20,3)
+
+```
+
+La manera más facil de generar una lista es utilizar una *lista de comprensión*
+
+```{python}
+import random
+A = [random.randint(10,20) for i in range(15)]
+print A
+```
+
+### Listas y Cadenas(Strings)
+- Te recomiendo ejecutar la siguiente función en la terminal de ipython.
+```{python}
+# Tenemos la cadena
+
+granLista = list("Una palabra muy grande por imprimir")
+
+# Si deseamos usar caracter por caracter tenemos
+
+print [caracter for caracter in granLista]
+
+```
+
+*Ejemplo 2*. Convertir los caracteres de una cadena a enteros.  
+
+Las funciones integradas en python *char(r), str(n),ord('c')*
+```{python}
+granLista = list("Una palabra muy grande por imprimir")
+result = [ord(caracter) for caracter in granLista]
+
+print result
+
+```
+
+Python también cuenta con la función *map*
+```{python}
+
+```
+
+## Ejercicios.
+
+1. Usando una lista de comprensión genera la siguiente lista:
+```{python}
+
+```
+
+
+
