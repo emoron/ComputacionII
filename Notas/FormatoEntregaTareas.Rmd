@@ -1,0 +1,16 @@
+# Entrega de Tareas
+
+Para el curso se tienen:
+- Retos de HackerRank
+- Temas Relacionados con Tecnolgía
+- Proyectos
+
+## Formato de Entrega
+* Para llevar registro de las tareas es necesario generar una cuenta en GitHub.
+* Crear una carpeta ComputacionII
+* Numerar las tareas usando la clave que aparece en el listado de tareas descrito en este documento.
+
+## Listado de Tareas
+
+
+
