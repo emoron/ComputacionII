@@ -3,11 +3,11 @@
 
 
 ## Recursos.
-* [Obtener Python.][185b52da]  
-* [Entrega de Tareas del curso.][0ef1080b]  
-* [Introducción.][3eec47a4]
-* [Introducción a Programación Orientada a Objetos.][2b1b5d32]  
-* [Módulos y paquetes.][744e6c08]
+* [Obtener Python.][185b52da]    
+* [Entrega de Tareas del curso.][0ef1080b]    
+* [Introducción.][3eec47a4]  
+* [Introducción a Programación Orientada a Objetos.][2b1b5d32]    
+* [Módulos y paquetes.][744e6c08]  
   [0ef1080b]: FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
   [3eec47a4]: Chapter-1.Rmd "Introducción a Python"  
   [744e6c08]: Chapter-3-2.ipynb "Módulos"
