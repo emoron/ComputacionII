@@ -23,7 +23,8 @@ Para el curso se tienen:
             <th>#</th>
             <th>Clave</th>
             <th>Problema</th>
-            <th>Username</th>
+            <th>Descripción</th>
+            <th>Fecha</th>
         </tr>
     </thead>
     <tbody>

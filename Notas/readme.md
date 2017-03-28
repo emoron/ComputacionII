@@ -18,6 +18,7 @@
             <th>Clave</th>
             <th>Problema</th>
             <th>Descripción</th>
+            <th>Fecha</th>
         </tr>
     </thead>
     <tbody>
