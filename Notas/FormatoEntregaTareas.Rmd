@@ -16,7 +16,6 @@ Para el curso se tienen:
 
 
 ## Listado de Tareas
-
 <table class="table">
     <thead>
         <tr>
