@@ -1,3 +1,3 @@
 # Notas de clase
 
-- [Formato de Entrega de Tareas)()
+- (Formato de Entrega de Tareas)[FormatoEntregaTareas.Rmd]
