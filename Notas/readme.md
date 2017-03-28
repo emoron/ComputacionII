@@ -8,12 +8,7 @@
 * [Introducción.][3eec47a4]  
 * [Introducción a Programación Orientada a Objetos.][2b1b5d32]    
 * [Módulos y paquetes.][744e6c08]  
-  [0ef1080b]: FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
-  [3eec47a4]: Chapter-1.Rmd "Introducción a Python"  
-  [744e6c08]: Chapter-3-2.ipynb "Módulos"
 
-  [185b52da]: Chapter0.Rmd "Obtener Python"
-  [2b1b5d32]: Chapter3-1.ipynb "Introducción a Programación Orientada a Objetos"
 ## Tareas
 
 <table class="table">
@@ -99,3 +94,9 @@
         </tr>
     </tbody>
 </table>
+
+[0ef1080b]: FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
+[3eec47a4]: Chapter-1.Rmd "Introducción a Python"  
+[744e6c08]: Chapter-3-2.ipynb "Módulos"
+[185b52da]: Chapter0.Rmd "Obtener Python"
+[2b1b5d32]: Chapter3-1.ipynb "Introducción a Programación Orientada a Objetos"
