@@ -6,7 +6,7 @@
 * [Obtener Python.][185b52da]    
 * [Entrega de Tareas del curso.][0ef1080b]    
 * [Introducción.][3eec47a4]  
-* [Introducción a Programación Orientada a Objetos.][2b1b5d32]    
+* [Programación Orientada a Objetos en Python.][2b1b5d32]    
 * [Módulos y paquetes.][744e6c08]  
 
 ## Tareas
