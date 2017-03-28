@@ -31,7 +31,7 @@
             <td>
                 <p>Recorrer el patrón en las casillas del arreglo.</p>
             </td>
-            <td></td>
+            <td>10/03/2017</td>
         </tr>
         <tr>
             <td>2</td>
