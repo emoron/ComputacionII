@@ -1,30 +1,81 @@
-# DataCamp Template Course
-<a href=https://www.datacamp.com//teach/repositories/84671108/go target="_blank"><img src="https://s3.amazonaws.com/assets.datacamp.com/img/github/content-engineering-repos/course_button.png" width="150"></a>
-<a href=https://www.datacamp.com//teach/repositories target="_blank"><img src="https://s3.amazonaws.com/assets.datacamp.com/img/github/content-engineering-repos/dashboard_button.png" width="150"></a>
+# Notas de clase Computación II
 
-This an automatically generated <a href=https://www.datacamp.com target="_blank">DataCamp</a> course. You can start from these template files to create your own course.
 
-Changes you make to this GitHub repository are automatically reflected in the linked DataCamp course. This means that you can enjoy all the advantages of version control, collaboration, issue handling ... of GitHub.
 
-## Workflow
+## Recursos.
+* [Obtener Python.][185b52da]    
+* [Entrega de Tareas del curso.][0ef1080b]    
+* [Introducción.][3eec47a4]  
+* [Programación Orientada a Objetos en Python.][2b1b5d32]    
+* [Módulos y paquetes.][744e6c08]  
 
-1. Edit the markdown and yml files in this repository. You can use GitHub's online editor or use <a href=https://git-scm.com/ target="_blank">git</a> locally and push your changes.
-2. Check out your build attempts on the <a href=https://www.datacamp.com//teach/repositories target="_blank">Dashboard</a>.
-3. Check out your automatically updated <a href=https://www.datacamp.com/teach/repositories/84671108/go target="_blank">course on DataCamp</a>
+## Tareas
+<table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Clave</th>
+                    <th>Problema</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>hkr-1</td>
+                    <td><p>2D Array - DS</p></td>
+                    <td><p>Recorrer el patrón en las casillas del arreglo.</p></td>
+                    <td>10/03/2017</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>hkr-2</td>
+                    <td><p>CamelCase</p></td>
+                    <td><p>&nbsp;Contar las palabras a partir de la regla de camelCase</p></td>
+                    <td>10/03/2017</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>hkr-3</td>
+                    <td><p>Sumatoria 2</p></td>
+                    <td><p>&nbsp;Suma de las columnas de un arreglo o lista</p></td>
+                    <td>10/03/2017</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>hkr-4</td>
+                    <td><p>Caesar Cipher</p></td>
+                    <td><p>&nbsp;Cifrador del Cesar</p></td>
+                    <td>10/03/2017</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>hkr-5</td>
+                    <td><p>The Power Sum</p></td>
+                    <td><p>Suma de Potencias</p></td>
+                    <td>10/03/2017</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>ti-1</td>
+                    <td><p>Bootstrap, HTML5</p></td>
+                    <td><p>Investigar sobre cómo Whatsapp, Snapchat y Tumblr generan ganancias.</p><p>Presentar en la plantilla de Boostrap que vimos en clase</p></td>
+                    <td>24/02/2017</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>hkr-6</td>
+                    <td><p>Clases y Objetos</p></td>
+                    <td><p>Escribir la clase Point con los métodos descritos en HackerRank</p></td>
+                    <td>27/03/2017</td>
+                </tr>
+            </tbody>
+        </table>
 
-## Getting Started
 
-A DataCamp course consists of two types of files:
-
-- `course.yml`, a <a href=http://docs.ansible.com/ansible/YAMLSyntax.html target="_blank">YAML-formatted file</a> that's prepopulated with some general course information.
-- `chapterX.md`, a markdown file with:
-   - a YAML header containing chapter information.
-   - markdown chunks representing DataCamp Exercises.
-
-To learn more about the structure of a DataCamp course, check out the <a href=https://www.datacamp.com//teach/documentation#tab_course_structure target="_blank">documentation</a>.
-
-Every DataCamp exercise consists of different parts, read up about them <a href=https://www.datacamp.com//teach/documentation#tab_code_exercises target="_blank">here</a>. A very important part about DataCamp exercises is to provide automated personalized feedback to students. In R, these so-called Submission Correctness Tests (SCTs) are written with the <a href=https://github.com/datacamp/testwhat target="_blank">`testwhat`</a> package. SCTs for Python exercises are coded up with <a href=https://github.com/datacamp/pythonwhat target="_blank">`pythonwhat`</a>. Check out the GitHub repositories' wiki pages for more information and examples.
-
-Want to learn more? Check out the <a href=https://www.datacamp.com//teach/documentation target="_blank">documentation</a> on teaching at DataCamp.
-
-*Happy teaching!*
+[0ef1080b]: Notas/FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
+[3eec47a4]: Notas/Chapter1.Rmd "Introducción a Python"  
+[744e6c08]: Notas/Chapter-3-2.ipynb "Módulos"
+[185b52da]: Notas/Chapter0.Rmd "Obtener Python"
+[2b1b5d32]: Notas/Chapter3-1.ipynb "Introducción a Programación Orientada a Objetos"
