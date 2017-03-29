@@ -1,6 +1,6 @@
 # Notas de clase Computación II
 
-
+Modificación 29/03/2017
 
 ## Recursos.
 * [Obtener Python.][185b52da]    
@@ -8,6 +8,9 @@
 * [Introducción.][3eec47a4]  
 * [Programación Orientada a Objetos en Python.][2b1b5d32]    
 * [Módulos y paquetes.][744e6c08]  
+* [Tutoriales de Apoyo](/ComputacionII/wiki)
+
+
 
 ## Tareas
 <table class="table">
