@@ -75,7 +75,7 @@
 
 
 [0ef1080b]: Notas/FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
-[3eec47a4]: Notas/Chapter-1.Rmd "Introducción a Python"  
+[3eec47a4]: Notas/Chapter1.Rmd "Introducción a Python"  
 [744e6c08]: Notas/Chapter-3-2.ipynb "Módulos"
 [185b52da]: Notas/Chapter0.Rmd "Obtener Python"
 [2b1b5d32]: Notas/Chapter3-1.ipynb "Introducción a Programación Orientada a Objetos"
