@@ -8,7 +8,7 @@ Modificación 29/03/2017
 * [Introducción.][3eec47a4]  
 * [Programación Orientada a Objetos en Python.][2b1b5d32]    
 * [Módulos y paquetes.][744e6c08]  
-* [Tutoriales de Apoyo](https://github.com/emoron/ComputacionII/wiki)
+* [Recursos de Apoyo](https://github.com/emoron/ComputacionII/wiki)
 
 
 
