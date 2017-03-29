@@ -12,7 +12,7 @@ Changes you make to this GitHub repository are automatically reflected in the li
 2. Check out your build attempts on the <a href=https://www.datacamp.com//teach/repositories target="_blank">Dashboard</a>.
 3. Check out your automatically updated <a href=https://www.datacamp.com/teach/repositories/84671108/go target="_blank">course on DataCamp</a>
 
-## Getting Started
+## Bienvenida
 
 A DataCamp course consists of two types of files:
 
