@@ -13,7 +13,12 @@ Para el curso se tienen:
   - CódigoFuente enviado a HackerRank.
   - Incluir el archivo capturaPantalla.png con la salida que muestra HackerRank al enviar.
 
-
+## Trabajando con Github
+- Crear una Cuenta en GitHub at https://github.com
+  - Deberá ser una cuenta publica asociada con su nombre
+  - Seleccione un usuario inteligentemente para su uso futuro.
+  - No se preocupe sobre los detalles los puede llenar posteriormente.
+- Crear un repositorio llamado de acuerdo a la clave de la tabla de tareas incluidas en este documento.
 
 ## Listado de Tareas
 <table class="table">
