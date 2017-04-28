@@ -7,7 +7,7 @@ Modificación 29/03/2017
 * [Entrega de Tareas del curso.][0ef1080b]    
 * [Introducción.][3eec47a4]  
 * [Programación Orientada a Objetos en Python.][2b1b5d32]    
-* [Stacks][]
+* [Stacks][341b6634]
 * [Módulos y paquetes.][744e6c08]  
 * [Recursos de Apoyo](https://github.com/emoron/ComputacionII/wiki)
 
