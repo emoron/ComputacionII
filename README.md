@@ -7,6 +7,7 @@ Modificación 29/03/2017
 * [Entrega de Tareas del curso.][0ef1080b]    
 * [Introducción.][3eec47a4]  
 * [Programación Orientada a Objetos en Python.][2b1b5d32]    
+* [Stacks][]
 * [Módulos y paquetes.][744e6c08]  
 * [Recursos de Apoyo](https://github.com/emoron/ComputacionII/wiki)
 
@@ -73,6 +74,13 @@ Modificación 29/03/2017
                     <td><p>Escribir la clase Point con los métodos descritos en HackerRank</p></td>
                     <td>27/03/2017</td>
                 </tr>
+                <tr>
+                    <td>8</td>
+                    <td>hkr-7</td>
+                    <td><p>Stacks</p></td>
+                    <td><p>Escribir un evaluador de expresiones aritmeticas</p></td>
+                    <td>27/04/2017</td>
+                </tr>
             </tbody>
         </table>
 
@@ -82,3 +90,4 @@ Modificación 29/03/2017
 [744e6c08]: Notas/Chapter-3-2.ipynb "Módulos"
 [185b52da]: Notas/Chapter0.Rmd "Obtener Python"
 [2b1b5d32]: Notas/Chapter3-1.ipynb "Introducción a Programación Orientada a Objetos"
+[341b6634]: Notas/Chapter-3-4.ipynb "Pilas (Stacks)"
