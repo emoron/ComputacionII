@@ -2,18 +2,26 @@
 
 Modificación 29/03/2017
 
-## Recursos.
-* [Obtener Python.][185b52da]    
-* [Entrega de Tareas del curso.][0ef1080b]    
-* [Introducción.][3eec47a4]  
-* [Programación Orientada a Objetos en Python.][2b1b5d32]    
-* [Stacks][341b6634]
-* [Módulos y paquetes.][744e6c08]  
+## Temas.
+- **Unidad 1**
+  * [Introducción.][3eec47a4]  
+  * [Programación Orientada a Objetos en Python.][2b1b5d32]    
+  * [Módulos y paquetes.][744e6c08]
+  * [Stacks][341b6634]
+  * [Primer Exámen Parcial][36e0dd02]
 * [Recursos de Apoyo](https://github.com/emoron/ComputacionII/wiki)
+  * [Obtener Python.][185b52da]    
+  * [Entrega de Tareas del curso.][0ef1080b]    
+
+- **Unidad II**    
+  + Arboles
+  + Arboles Balanceados
+  + Ejemplos
 
 
 
 ## Tareas
+Recuerda agregar los archivos a tu repositorio de GitHub
 <table class="table">
             <thead>
                 <tr>
@@ -62,7 +70,7 @@ Modificación 29/03/2017
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td>ti-1</td>
+                    <td>TI-1</td>
                     <td><p>Bootstrap, HTML5</p></td>
                     <td><p>Investigar sobre cómo Whatsapp, Snapchat y Tumblr generan ganancias.</p><p>Presentar en la plantilla de Boostrap que vimos en clase</p></td>
                     <td>24/02/2017</td>
@@ -81,6 +89,14 @@ Modificación 29/03/2017
                     <td><p>Escribir un evaluador de expresiones aritmeticas</p></td>
                     <td>27/04/2017</td>
                 </tr>
+
+                <tr>
+                    <td>9</td>
+                    <td>hkr-8</td>
+                    <td><p><a href="https://github.com/emoron/ComputacionII/blob/master/Notas/Chapter-3-5.ipynb">Ejercicios de Stacks</a></p></td>
+                    <td><p>Realiza los Ejercicios  </p> Estos no estan publicados en HackerRank</td>
+                    <td>2/05/2017</td>
+                </tr>
             </tbody>
         </table>
 
@@ -91,3 +107,4 @@ Modificación 29/03/2017
 [185b52da]: Notas/Chapter0.Rmd "Obtener Python"
 [2b1b5d32]: Notas/Chapter3-1.ipynb "Introducción a Programación Orientada a Objetos"
 [341b6634]: Notas/Chapter-3-4.ipynb "Pilas (Stacks)"
+[36e0dd02]: https://github.com/emoron/ComputacionII/blob/master/Notas/Chapter-3-5.ipynb "ExamenParcial-1"
