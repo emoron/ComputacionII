@@ -9,9 +9,7 @@ Modificación 29/03/2017
   * [Módulos y paquetes.][744e6c08]
   * [Stacks][341b6634]
   * [Primer Exámen Parcial][36e0dd02]
-* [Recursos de Apoyo](https://github.com/emoron/ComputacionII/wiki)
-  * [Obtener Python.][185b52da]    
-  * [Entrega de Tareas del curso.][0ef1080b]    
+
 
 - **Unidad II**    
   + Arboles
@@ -19,7 +17,9 @@ Modificación 29/03/2017
   + Ejemplos
 
 
-
+  * [Recursos de Apoyo](https://github.com/emoron/ComputacionII/wiki)
+    * [Obtener Python.][185b52da]    
+    * [Entrega de Tareas del curso.][0ef1080b]   
 ## Tareas
 Recuerda agregar los archivos a tu repositorio de GitHub
 <table class="table">
