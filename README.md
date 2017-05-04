@@ -22,6 +22,7 @@ Modificación 29/03/2017
     * [Entrega de Tareas del curso.][0ef1080b]   
 ## Tareas
 Recuerda agregar los archivos a tu repositorio de GitHub
+
 <table class="table">
             <thead>
                 <tr>
@@ -93,12 +94,12 @@ Recuerda agregar los archivos a tu repositorio de GitHub
                 <tr>
                     <td>9</td>
                     <td>hkr-8</td>
-                    <td><p><a href="https://github.com/emoron/ComputacionII/blob/master/Notas/Chapter-3-5.ipynb">Ejercicios de Stacks</a>                        </p></td>
+                    <td><p><a href="https://github.com/emoron/ComputacionII/blob/master/Notas/Chapter-3-5.ipynb">Ejercicios de Stacks</a></p></td>
                     <td><p>Realiza los Ejercicios  </p> Estos no estan publicados en HackerRank</td>
                     <td>2/05/2017</td>
                 </tr>
             </tbody>
-        </table>
+  </table>
 
 
 [0ef1080b]: Notas/FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
