@@ -4,27 +4,30 @@ Modificación 29/03/2017
 
 ## Temas.
 - **Unidad 1**
-  * [Introducción.][3eec47a4]  
-  * [Programación Orientada a Objetos en Python.][2b1b5d32]    
+  * [Introducción.][3eec47a4]
+  * [Programación Orientada a Objetos en Python.][2b1b5d32]
   * [Módulos y paquetes.][744e6c08]
   * [Stacks][341b6634]
   * [Primer Exámen Parcial][36e0dd02]
 
 
-- **Unidad II**    
-  + Arboles
+- **Unidad II**
+  + [Arboles][42981ca2]
   + Arboles Balanceados
-  + Ejemplos
+  + [Proyecto Final][a39cf2e3]
+
+  [a39cf2e3]: Notas/Chapter.4-1.md "Proyecto Final"
+  [42981ca2]: Notas/Chapter-4-1.ipynb "Arboles"
 
 
   * [Recursos de Apoyo](https://github.com/emoron/ComputacionII/wiki)
-    * [Obtener Python.][185b52da]    
-    * [Entrega de Tareas del curso.][0ef1080b]   
+    * [Obtener Python.][185b52da]
+    * [Entrega de Tareas del curso.][0ef1080b]
 ## Tareas
 Recuerda agregar los archivos a tu repositorio de GitHub
 
-<table class="table">
-            <thead>
+<table>
+    <thead>
                 <tr>
                     <th>#</th>
                     <th>Clave</th>
@@ -90,7 +93,6 @@ Recuerda agregar los archivos a tu repositorio de GitHub
                     <td><p>Escribir un evaluador de expresiones aritmeticas</p></td>
                     <td>27/04/2017</td>
                 </tr>
-
                 <tr>
                     <td>9</td>
                     <td>hkr-8</td>
@@ -110,8 +112,8 @@ Recuerda agregar los archivos a tu repositorio de GitHub
 
 
 
-[0ef1080b]: Notas/FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
-[3eec47a4]: Notas/Chapter1.Rmd "Introducción a Python"  
+[0ef1080b]: Notas/FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"
+[3eec47a4]: Notas/Chapter1.Rmd "Introducción a Python"
 [744e6c08]: Notas/Chapter-3-2.ipynb "Módulos"
 [185b52da]: Notas/Chapter0.Rmd "Obtener Python"
 [2b1b5d32]: Notas/Chapter3-1.ipynb "Introducción a Programación Orientada a Objetos"
