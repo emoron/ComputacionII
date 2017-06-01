@@ -18,6 +18,8 @@ Se formarán equipos de dos personas donde cada equipo deberá entregar gradualm
 
 ## GitHub
 
-Todas las revisiones de los avances de realizan en github, usando pull request si hay alguna duda  revisar el video que se adjunta en la descripcion.
+Todas las revisiones de los avances de realizan en github, usando pull request si hay alguna duda  revisar el [video][516917d1] que se adjunta en la descripcion.
 Deberan crear un repositorio llamado RedSocial, cada integrante debera poder acceder a la carpeta y el repositorio que envien sera considerado como el proyecto definitivo.
 Para la evaluacion revisare los commits aplicados por cada integrante, en caso de que un integrante no contribuya al repositorio no podre evaluar el proyecto.
+
+  [516917d1]: https://youtu.be/ZiXx7acOmy4 "Tutorial de Pull Request"
