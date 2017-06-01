@@ -20,8 +20,10 @@ Se formarán equipos de dos personas donde cada equipo deberá entregar gradualm
 
 Todas las revisiones de los avances de realizan en github, usando pull request si hay alguna duda  revisar el [video][516917d1] que se adjunta en la descripcion. No se aceptan entregas por correo (debido a que no se pueden hacer comentarios en el codigo).
 
-Deberán crear un repositorio llamado RedSocial, cada integrante debera poder acceder a la carpeta y el repositorio que envien sera considerado como el proyecto definitivo.
+Deberán crear un repositorio llamado **RedSocial**, cada integrante debera poder acceder a repositorio como colaborador ([ver tutorial][b425f897]) y el repositorio que envien sera considerado como el proyecto definitivo.
 Para la evaluacion revisare los [commits aplicados][2aa2a4d3] por cada integrante, en caso de que un integrante no contribuya al repositorio no podre evaluar el proyecto.
+
+  [b425f897]: https://youtu.be/61WbzS9XMwk "Collaboration in Github"
 
 
 

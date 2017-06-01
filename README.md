@@ -104,7 +104,7 @@ Recuerda agregar los archivos a tu repositorio de GitHub
                 <td>10</td>
                 <td>Ti-1</td>
                 <td>Proyecto final</td>
-                <td>Descripcion</td>
+                <td>[Descripción](Notas/Chapter-4-0.md)</td>
                 <td>15/05/2017</td>
                 </tr>
          </tbody>
