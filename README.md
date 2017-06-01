@@ -98,8 +98,16 @@ Recuerda agregar los archivos a tu repositorio de GitHub
                     <td><p>Realiza los Ejercicios  </p> Estos no estan publicados en HackerRank</td>
                     <td>2/05/2017</td>
                 </tr>
-            </tbody>
+                <tr>
+                <td>10</td>
+                <td>Ti-1</td>
+                <td>Proyecto final</td>
+                <td>Descripcion</td>
+                <td>15/05/2017</td>
+                </tr>
+         </tbody>
   </table>
+
 
 
 [0ef1080b]: Notas/FormatoEntregaTareas.Rmd "Formato de Entrega de Tareas"  
