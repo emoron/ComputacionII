@@ -1,6 +1,5 @@
 # Notas de clase Computación II
 
-
 Modificación 29/03/2017
 
 ## Temas.
